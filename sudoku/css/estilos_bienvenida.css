@@ -1,0 +1,36 @@
+/* Estilos de la barra del menú */
+.menu-header {
+background-color: #15685d; /* Color de fondo verde para toda la barra del menú */
+padding: 15px 0; /* Espacio vertical dentro de la barra */
+box-shadow: 0 2px 5px rgba(111, 255, 255, 0.2); /* Sombra sutil para profundidad */
+}
+.main-nav ul {
+list-style: none; /* Elimina los puntos de la lista */
+margin: 0;
+padding: 0;
+text-align: center; /* Centra los elementos del menú */
+}
+.main-nav li {
+display: inline-block; /* Hace que los elementos de la lista se muestren horizontalmente */
+margin: 0 25px; /* Espacio entre cada elemento del menú */
+}
+.main-nav a {
+text-decoration: none; /* Elimina el subrayado de los enlaces */
+color: #ffffff; /* Color del texto de los enlaces (blanco) */
+font-size: 1.1em; /* Tamaño de fuente ligeramente más grande */
+font-weight: bold; /* Texto en negrita */
+padding: 8px 15px; /* Espacio alrededor del texto del enlace */
+transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave para efectos hover */
+border-radius: 5px; /* Bordes ligeramente redondeados para los enlaces */
+}
+.main-nav a:hover,
+.main-nav a:focus {
+background-color: #54f2f7; /* Color de fondo más oscuro al pasar el ratón */
+color: #e0e0e0; /* Color del texto ligeramente más claro */
+}
+.letra {
+    color: #4aaecc;
+}
+.fondo{
+    background-color: #2d3233;
+}

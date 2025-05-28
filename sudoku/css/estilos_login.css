@@ -1,0 +1,27 @@
+body
+{
+margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #2d3233; /* Un fondo suave para diferenciar */
+        min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la ventana */
+        display: flex; /* Convierte el body en un contenedor flex para centrar su contenido */
+        justify-content: center; /* Centra horizontalmente el contenido del body */
+        align-items: center; /* Centra verticalmente el contenido del body */
+        background-image: url('zoro.gif');
+        background-position: left center; /* Mueve la imagen hacia la izquierda */
+
+}
+.contenedor
+{
+        width: 300px;
+        background-color: rgb(66, 74, 80);
+        border: 2px solid #98e4fc; /* Borde verde */
+        border-radius: 10px; /* Bordes redondeados (opcional) */
+        box-shadow: 0 4px 8px rgba(128, 209, 230, 0.2); /* Sombra suave */
+        padding: 30px;
+        display: grid;
+}
+.titulo
+{
+        color: rgb(116, 255, 255);
+}

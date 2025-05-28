@@ -1,0 +1,88 @@
+.contenedor
+{
+width: 900px;
+background: #363d3f;
+        border: 2px solid #98e4fc; /* Borde verde */
+margin: 0 auto;
+padding: 30px;
+padding-left: 50px;
+padding-right: 50px;
+margin-top: 150px;
+border-radius: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+box-shadow: 0 0 10px rgba(155, 202, 247, 0.1);
+}
+.contenedor table
+{
+margin-top: 30px; /* margen desde arriba */
+margin-left:auto; /* centrar tabla */
+margin-right:auto; /* centrar tabla */
+text-align: center;
+font-size: 24px;
+border-collapse: separate;
+border-spacing: 10px 5px;
+}
+.no-contiene
+{
+    margin: 0 auto;
+width: 500px;
+height: 50px;
+background-color: #abcae9;
+padding: 3px;
+box-shadow: 0 0 10px rgba(115, 124, 253, 0.1);
+text-align: center;
+padding: 10px;
+border-radius: 5px;
+}
+.contenedor-alternativa
+{
+display:flex; /*colocar los DIV uno al lado del otro*/
+justify-content: center; /*centrar los DIV en el contenedor*/
+}
+.caja
+{
+width: 60px;
+padding: 15px;
+text-align: center;
+font-size: 24px;
+color: #66d5e4;
+background-color: #232421;
+border: 1px solid #66d5e4;
+cursor: pointer;
+margin: 2px;
+}
+.resultado
+{
+margin: 0 auto;
+width: 500px;
+background-color: #5eceeb;
+color: #99AFC7;
+text-align: center;
+padding: 10px;
+border-radius: 5px;
+}
+.letra{
+    color: #80d1f1;
+}
+.fondo{
+    background-color: #232421;
+}
+.contiene{
+margin: 0 auto;
+width: 500px;
+background-color: #232421;
+border: 1px solid #66d5e4;
+color: #e6e6e6;
+text-align: center;
+padding: 10px;
+border-radius: 5px;
+}
+.letra{
+    color: aliceblue;
+}
+.suma{
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+
+}
