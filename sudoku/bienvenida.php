@@ -23,6 +23,7 @@
                 <li><a href="restar.php">Restar</a></li>
                 <li><a href="multiplicar.php">Multiplicar</a></li>
                 <li><a href="division.php">División</a></li>
+                <li><a href="mixta.php">mixta</a></li>
                 <li><a href="index.php">Cerrar</a></li>
             </ul>
         </nav>
